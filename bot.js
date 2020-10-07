@@ -20,8 +20,8 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`Coblat ..`, {
-type: "Playing",
+client.user.setActivity(`Shion ..`, {
+type: "Watching",
 url: "https://www.twitch.tv/ee"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
     .catch(console.error);
